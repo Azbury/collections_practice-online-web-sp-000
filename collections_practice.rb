@@ -42,3 +42,9 @@ def sum_array (array)
   end
   sum
 end
+
+def add_s (array)
+  array.each_with_index do |ele, i|
+    ele << "s" unless i == 1
+  end
+end
