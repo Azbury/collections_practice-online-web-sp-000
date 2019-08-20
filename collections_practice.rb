@@ -34,3 +34,10 @@ def find_a (array)
     ele.start_with?("a")
   end
 end
+
+def sum_array (array)
+  sum = 0
+  array.each do |num|
+    sum += num
+  end
+end
