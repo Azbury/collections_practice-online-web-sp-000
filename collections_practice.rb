@@ -28,3 +28,9 @@ def kesha_maker (array)
     character_array.join
   end
 end
+
+def find_a (array)
+  array.select do |ele|
+    ele.start_with?("a")
+  end
+end
